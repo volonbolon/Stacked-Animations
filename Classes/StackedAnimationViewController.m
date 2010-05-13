@@ -36,6 +36,7 @@
 {  
     [UIView beginAnimations:@"Stacked Animations" context:nil]; 
     [UIView setAnimationBeginsFromCurrentState:YES]; 
+    [UIView setAnimationDuration:2]; 
     self.imageView.center = CGPointMake(160, 230); 
     self.imageView.center = CGPointMake(160, 376); 
     [UIView commitAnimations]; 
